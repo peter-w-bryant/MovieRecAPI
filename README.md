@@ -1,5 +1,5 @@
 # MovieRecAPI
-A backend API for generating movie recommendations using other peoples' ratings from MovieLens dataset.
+A backend API for generating movie recommendations using other peoples' ratings from [MovieLens dataset](https://grouplens.org/datasets/movielens/).
 
 Screenshots of my Postman window with the result of posting JSON data corresponding to several movies to the backend API:
 
