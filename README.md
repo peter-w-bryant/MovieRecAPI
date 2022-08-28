@@ -1,7 +1,7 @@
 # MovieRecAPI
 A backend API for generating movie recommendations using other peoples' ratings from MovieLens dataset.
 
-A screenshot of my Postman window with the result of a posting JSON data corresponding to the movie "Harry Potter and the Goblet of Fire (2005)".
+A screenshot of my Postman window with the result of posting JSON data corresponding to the movie "Harry Potter and the Goblet of Fire (2005)" to the backend API.
 
 List of ten recommendations include,
  <ol>
