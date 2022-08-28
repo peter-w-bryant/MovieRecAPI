@@ -1,0 +1,12 @@
+curl -X POST http://127.0.0.1:80/find_friend -H 'Content-Type: application/json' -d '{"person":"Joey"}'
+
+Invoke-WebRequest -Uri http://127.0.0.1:80/find_friend -d '{"person":"Joey"}'
+
+curl.exe --data-binary '{"person":"Joey"}' -H 'content-type: application/json;' http://127.0.0.1:80/find_friend
+
+curl -X POST http://127.0.0.1:80/find_friend -H 'Content-Type: app/json' -d '{"person":"Joey"}'
+
+curl http://127.0.0.1:80/
+
+
+curl -X POST http://127.0.0.1:80/find_friend -H 'accept: app/json' -d '{"person":"Joey"}'
