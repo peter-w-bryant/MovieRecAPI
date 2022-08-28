@@ -15,7 +15,7 @@ def make_rec():
         movie = data["movie_title"]
         try: 
             similar_score = item_similarity_df[movie]
-            similar_movies = similar_score.sort_values(ascending=False)[1:50]
+            similar_movies = similar_score.sort_values(ascending=False)[1:10]
             api_recommendations = similar_movies.index.to_list()
         except:
             api_recommendations = ['Movie not found']
